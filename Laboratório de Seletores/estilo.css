@@ -1,0 +1,47 @@
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+
+#titulo-principal {
+    color: blue;
+}
+
+
+.destaque {
+    background-color: yellow;
+}
+
+
+#importante,
+li.importante {
+    color: red;
+}
+
+
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+
+button:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
+.container > div > p {
+    color: purple;
+}
+
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+li:first-child {
+    font-weight: bold;
+}
